@@ -55,6 +55,8 @@ func main()  {
 				resultCount = 0
 			}
 			bias += error * learningRate
+			inputWeight_1 += error * learningRate * float32(andGateInputs[i][0])
+			inputWeight_2 += error * learningRate * float32(andGateInputs[i][1])
 		}
 		fmt.Println("*************** iration end ******************* \n")
 		iterationCount ++
