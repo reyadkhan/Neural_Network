@@ -1,1 +1,1 @@
-# Neural_Network Implementation With Golang
+# Perceptron(logic gate) With Golang
